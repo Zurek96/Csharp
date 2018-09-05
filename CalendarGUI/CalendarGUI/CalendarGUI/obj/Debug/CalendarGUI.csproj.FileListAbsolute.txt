@@ -1,0 +1,16 @@
+C:\Users\MZurowsk\CalendarGUI\CalendarGUI\CalendarGUI\bin\Debug\CalendarGUI.exe
+C:\Users\MZurowsk\CalendarGUI\CalendarGUI\CalendarGUI\bin\Debug\CalendarGUI.pdb
+C:\Users\MZurowsk\CalendarGUI\CalendarGUI\CalendarGUI\obj\Debug\CalendarGUI.csprojAssemblyReference.cache
+C:\Users\MZurowsk\CalendarGUI\CalendarGUI\CalendarGUI\obj\Debug\MainWindow.g.cs
+C:\Users\MZurowsk\CalendarGUI\CalendarGUI\CalendarGUI\obj\Debug\App.g.cs
+C:\Users\MZurowsk\CalendarGUI\CalendarGUI\CalendarGUI\obj\Debug\CalendarGUI_MarkupCompile.cache
+C:\Users\MZurowsk\CalendarGUI\CalendarGUI\CalendarGUI\obj\Debug\CalendarGUI_MarkupCompile.lref
+C:\Users\MZurowsk\CalendarGUI\CalendarGUI\CalendarGUI\obj\Debug\MainWindow.baml
+C:\Users\MZurowsk\CalendarGUI\CalendarGUI\CalendarGUI\obj\Debug\CalendarGUI.g.resources
+C:\Users\MZurowsk\CalendarGUI\CalendarGUI\CalendarGUI\obj\Debug\CalendarGUI.Properties.Resources.resources
+C:\Users\MZurowsk\CalendarGUI\CalendarGUI\CalendarGUI\obj\Debug\CalendarGUI.csproj.GenerateResource.cache
+C:\Users\MZurowsk\CalendarGUI\CalendarGUI\CalendarGUI\obj\Debug\CalendarGUI.csproj.CoreCompileInputs.cache
+C:\Users\MZurowsk\CalendarGUI\CalendarGUI\CalendarGUI\obj\Debug\CalendarGUI.exe
+C:\Users\MZurowsk\CalendarGUI\CalendarGUI\CalendarGUI\obj\Debug\CalendarGUI.pdb
+C:\Users\MZurowsk\CalendarGUI\CalendarGUI\CalendarGUI\obj\Debug\EventsList.g.cs
+C:\Users\MZurowsk\CalendarGUI\CalendarGUI\CalendarGUI\obj\Debug\EventsList.baml
