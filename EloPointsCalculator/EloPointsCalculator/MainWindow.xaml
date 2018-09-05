@@ -1,0 +1,24 @@
+﻿<Window x:Class="EloPointsCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EloPointsCalculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="Rating1" HorizontalAlignment="Left" Height="46" Margin="75,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125"/>
+        <TextBox x:Name="Rating2" HorizontalAlignment="Left" Height="46" Margin="75,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125"/>
+        <TextBox x:Name="K" HorizontalAlignment="Left" Height="46" Margin="75,272,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125"/>
+        <Button x:Name="Calculate" Content="Calculate!" HorizontalAlignment="Left" Height="46" Margin="288,167,0,0" VerticalAlignment="Top" Width="180" Click="Calculate_Click"/>
+        <RadioButton x:Name="Player1" Content="RadioButton" HorizontalAlignment="Left" Height="12" Margin="557,88,0,0" VerticalAlignment="Top" Width="15"/>
+        <RadioButton x:Name="Player1_Copy" Content="RadioButton" HorizontalAlignment="Left" Height="12" Margin="557,123,0,0" VerticalAlignment="Top" Width="15"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,88,0,0" TextWrapping="Wrap" Text="Rating 1" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,182,0,0" TextWrapping="Wrap" Text="Rating 2" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,286,0,0" TextWrapping="Wrap" Text="K" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="448,84,0,0" TextWrapping="Wrap" Text="Player1 wins" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="448,123,0,0" TextWrapping="Wrap" Text="Player2 wins" VerticalAlignment="Top"/>
+        <Button x:Name="ControlPanelB" Content="Back to Control panel" HorizontalAlignment="Left" Height="47" Margin="600,347,0,0" VerticalAlignment="Top" Width="152" Click="ControlPanel_Click"/>
+
+    </Grid>
+</Window>

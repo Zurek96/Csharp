@@ -1,0 +1,35 @@
+﻿<Window x:Name="ControlPanel2" x:Class="EloPointsCalculator.ControlPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EloPointsCalculator"
+        mc:Ignorable="d"
+        Title="ControlPanel" Height="484.938" Width="1393.943" Activated="ControlPanel2_Activated" Initialized="ControlPanel2_Initialized" ContextMenuOpening="ControlPanel2_ContextMenuOpening" >
+    <Grid x:Name="ControlPanel1">
+        <Button x:Name="AddPlayer" Content="Add Player" HorizontalAlignment="Left" Height="42" Margin="60,100,0,0" VerticalAlignment="Top" Width="101" Click="AddPlayer_Click"/>
+        <Button x:Name="AddResult" Content="Add result" HorizontalAlignment="Left" Height="40" Margin="60,147,0,0" VerticalAlignment="Top" Width="101" Click="AddResult_Click"/>
+        <TextBlock x:Name="Tb1" HorizontalAlignment="Left" Margin="321,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="173" Width="55"/>
+        <TextBlock HorizontalAlignment="Left" Height="17" Margin="320,82,0,0" TextWrapping="Wrap" Text="ID" VerticalAlignment="Top" Width="56"/>
+        <TextBlock HorizontalAlignment="Left" Height="17" Margin="381,82,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Width="56"/>
+        <TextBlock HorizontalAlignment="Left" Height="17" Margin="567,82,0,0" TextWrapping="Wrap" Text="ELO" VerticalAlignment="Top" Width="56"/>
+        <TextBlock HorizontalAlignment="Left" Height="17" Margin="623,82,0,0" TextWrapping="Wrap" Text="AP" VerticalAlignment="Top" Width="56"/>
+        <TextBlock x:Name="Tb1_Copy" HorizontalAlignment="Left" Margin="381,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="173" Width="180"/>
+        <TextBlock x:Name="Tb1_Copy1" HorizontalAlignment="Left" Margin="566,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="173" Width="55"/>
+        <TextBlock x:Name="Tb1_Copy2" HorizontalAlignment="Left" Margin="624,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="173" Width="55"/>
+        <Button x:Name="DeletePlayer" Content="DeletePlayer" HorizontalAlignment="Left" Height="44" Margin="60,192,0,0" VerticalAlignment="Top" Width="101" Click="DeletePlayer_Click"/>
+        <Button x:Name="Clear" Content="Clear" HorizontalAlignment="Left" Margin="61,241,0,0" VerticalAlignment="Top" Width="100" Height="41" Click="Clear_Click"/>
+        <Button x:Name="Save" Content="Save" HorizontalAlignment="Left" Margin="61,287,0,0" VerticalAlignment="Top" Width="100" Height="41" Click="Save_Click"/>
+        <Button x:Name="Pairings_Copy" Content="Create pairings" HorizontalAlignment="Left" Margin="60,333,0,0" VerticalAlignment="Top" Width="100" Height="41" Click="Pairings_Copy_Click"/>
+        <Button x:Name="Turns" Content="Create turn" HorizontalAlignment="Left" Margin="61,379,0,0" VerticalAlignment="Top" Width="100" Height="41" Click="Turns_Click"/>
+        <TextBlock HorizontalAlignment="Left" Height="17" Margin="798,82,0,0" TextWrapping="Wrap" Text="Turn" VerticalAlignment="Top" Width="78"/>
+        <TextBlock HorizontalAlignment="Left" Height="17" Margin="881,82,0,0" TextWrapping="Wrap" Text="Pairing" VerticalAlignment="Top" Width="265"/>
+        <TextBlock x:Name="TurnTB" HorizontalAlignment="Left" Height="297" Margin="798,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83"/>
+        <TextBlock x:Name="PairingTB" HorizontalAlignment="Left" Height="297" Margin="881,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="265"/>
+        <TextBlock x:Name="Status" HorizontalAlignment="Left" Height="17" Margin="1151,82,0,0" TextWrapping="Wrap" Text="Status" VerticalAlignment="Top" Width="90"/>
+        <TextBlock x:Name="Result" HorizontalAlignment="Left" Height="17" Margin="1241,82,0,0" TextWrapping="Wrap" Text="Result" VerticalAlignment="Top" Width="90"/>
+        <TextBlock x:Name="StatusTB" HorizontalAlignment="Left" Height="297" Margin="1146,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83"/>
+        <TextBlock x:Name="ResultTB" HorizontalAlignment="Left" Height="297" Margin="1241,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83"/>
+
+    </Grid>
+</Window>
